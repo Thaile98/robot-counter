@@ -1,6 +1,6 @@
 <?php
 
-namespace Workable\RobotCounter\Console\Commands;
+namespace Thailv\RobotCounter\Console\Commands;
 
 use Carbon\Carbon;
 use DateTime;

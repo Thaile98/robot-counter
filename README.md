@@ -9,14 +9,14 @@ In your project folder, run
 
 After finish, publish vendor by this command:
 
-<code>php artisan vendor:publish --provider="Workable\RobotCounter\Providers\RobotCounterServiceProvider"</code>
+<code>php artisan vendor:publish --provider="Thailv\RobotCounter\Providers\RobotCounterServiceProvider"</code>
 
 and <code>php artisan migrate</code> to run migration file
 
 ### Usage Instructions
 This package works by using a middleware, logging every request performed by bots in a log file, you can rename the middleware in <code>config/robots_counter.php</code> file.
 
-If you want the middleware works for every request, just put its class <code>\Workable\RobotCounter\Http\Middleware\RobotCounterMiddleware::class</code> in array <code>$middleware </code> in <code>app/Http/Kernel.php</code>
+If you want the middleware works for every request, just put its class <code>\Thailv\RobotCounter\Http\Middleware\RobotCounterMiddleware::class</code> in array <code>$middleware </code> in <code>app/Http/Kernel.php</code>
 But the best practise is using this middleware for routes need reporting for better performance.
 Also, you can config your accepted request methods you want to be in your log.
 

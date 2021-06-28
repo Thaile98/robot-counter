@@ -1,6 +1,6 @@
 <?php
 
-namespace Workable\RobotCounter\Http\Middleware;
+namespace Thailv\RobotCounter\Http\Middleware;
 
 use Closure;
 use Jenssegers\Agent\Agent;

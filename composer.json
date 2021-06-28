@@ -16,13 +16,13 @@
             "bootstrap/autoload.php"
         ],
         "psr-4": {
-            "Workable\\RobotCounter\\": "src"
+            "Thailv\\RobotCounter\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Workable\\RobotCounter\\RobotCounterServiceProvider"
+                "Thailv\\RobotCounter\\RobotCounterServiceProvider"
             ]
         }
     }

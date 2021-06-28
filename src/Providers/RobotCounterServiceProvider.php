@@ -6,11 +6,11 @@
  * Time: 10:40 AM
  */
 
-namespace Workable\RobotCounter\Providers;
+namespace Thailv\RobotCounter\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Workable\RobotCounter\Console\Commands\RobotCounterReportCommand;
-use Workable\RobotCounter\Http\Middleware\RobotCounterMiddleware;
+use Thailv\RobotCounter\Console\Commands\RobotCounterReportCommand;
+use Thailv\RobotCounter\Http\Middleware\RobotCounterMiddleware;
 
 class RobotCounterServiceProvider extends ServiceProvider
 {
