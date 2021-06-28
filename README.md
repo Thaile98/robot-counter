@@ -5,7 +5,7 @@ This package allow you to track how many bots visit your website, their frequenc
 ### Installation
 In your project folder, run
 
-<code>composer require workable/robot-counter</code>
+<code>composer require thailv/robot-counter</code>
 
 After finish, publish vendor by this command:
 
