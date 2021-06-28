@@ -1,5 +1,5 @@
 {
-    "name": "workable/robot-counter",
+    "name": "thailv/robot-counter",
     "description": "Count and report how many times a bot visit your website",
     "require": {
         "jenssegers/agent": "^2.6"
