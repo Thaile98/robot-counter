@@ -1,0 +1,29 @@
+{
+    "name": "workable/robot-counter",
+    "description": "Count and report how many times a bot visit your website",
+    "require": {
+        "jenssegers/agent": "^2.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thaile98",
+            "email": "thailv@vatgia.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "bootstrap/autoload.php"
+        ],
+        "psr-4": {
+            "Workable\\RobotCounter\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Workable\\RobotCounter\\RobotCounterServiceProvider"
+            ]
+        }
+    }
+}
